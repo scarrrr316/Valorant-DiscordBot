@@ -46,8 +46,8 @@
 <!-- Inspired by Red Discord Bot -->
 <!-- https://github.com/Cog-Creators/Red-DiscordBot -->
 
-# Note ⚠️
-- will not receive updates until The new version will be finished. sorry 😭
+## Note ⚠️
+- will not receive updates until v4.0.0 will be finished. sorry 😭
 - `
 I'm a student and I have to divide my study time with this project.`
 
@@ -59,13 +59,19 @@ written using Python and the [Discord.py][DiscordPy] library <br>
 If you need help regarding Valorant Discord Bot, please join the [support server][Support]
 
 ## Heroku
-
+- [ ⚠️ Heroku announces plans to eliminate free plans][Heroku_announce]
 > Important: Please note that dynos will have be restarted every **24 hours**. All changes to the local filesystem will be deleted, which means you'll have to relogin using `/login` once the 24-hour limit is reached. Read more about automatic dyno restarts [here][Heroku].
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 - [Youtube Tutorial][Tutorial]
 
+## Repl.it
+
+> Important: All projects under the Repl.it free plan are public. To solve the privacy problem, all data is stored in the Repl.it Database, but the Repl.it Database is slow to read and it takes time to execute commands. (Cache system to be updated)
+
+[![Run on Repl.it](https://replit.com/badge/github/staciax/Valorant-DiscordBot)](https://replit.com/new/github/staciax/Valorant-DiscordBot)
+
+P.S. need to add 2 secrets: `TOKEN` and `OWNER_ID`
 ## Docker
 
 To simply install the latest stable version, run
@@ -127,7 +133,7 @@ pip install -r requirements.txt
 
 ```bash
 # manual install package
-pip install git+https://github.com/Rapptz/discord.py@master
+pip discord.py
 pip install requests
 pip install python-dotenv
 ```
@@ -278,3 +284,4 @@ This project wouldn't have happened without.
 <!-- Other -->
 [Heroku]: https://devcenter.heroku.com/articles/dynos#automatic-dyno-restarts
 [Crowdin]: (https://crowdin.com/project/discord-bot-valorant)
+[Heroku_announce]: https://blog.heroku.com/next-chapter
